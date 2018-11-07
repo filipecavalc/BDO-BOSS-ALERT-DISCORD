@@ -1,0 +1,24 @@
+{
+  "name": "bdo-boss-alert-discord",
+  "version": "1.0.0",
+  "description": "projeto de integracao do discord para avisos do horarios de bosses no black desert online",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipecavalc/BDO-BOSS-ALERT-DISCORD.git"
+  },
+  "author": "filipecavalc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipecavalc/BDO-BOSS-ALERT-DISCORD/issues"
+  },
+  "homepage": "https://github.com/filipecavalc/BDO-BOSS-ALERT-DISCORD#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.4.2",
+    "request": "^2.88.0"
+  }
+}
