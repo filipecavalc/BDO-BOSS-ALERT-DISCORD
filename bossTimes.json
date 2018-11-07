@@ -1,45 +1,4 @@
-var bossData = {
-    kutum: {
-        alert: "Kutum Spawnado!",
-        img: "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
-    },
-    dastardBheg: {
-        alert: "Covarde Bheg Spawnado!",
-        img: "http://urzasarchives.com/wp-content/uploads/wbt_bheg.png"
-    },
-    dimTreeSpirit: {
-        alert: "Espírito da Árvore Tola Spawndo!",
-        img: "http://urzasarchives.com/wp-content/uploads/wbt_dim.png"
-    },
-    giantMudster: {
-        alert: "Mudster Enorme Spawnado!",
-        img: "http://urzasarchives.com/wp-content/uploads/wbt_mudster.png"
-    },
-    karanda: {
-        alert: "Karanda Spawnado!",
-        img: "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
-    },
-    kzarka: {
-        alert: "Kzarka Spawnado!",
-        img: "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
-    },
-    redNose: {
-        alert: "Nariz Vermelho Spawnado!",
-        img: "http://urzasarchives.com/wp-content/uploads/wbt_red.png"
-    },
-    nouver: {
-        alert: "Nouver Spawnado!",
-        img: "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"
-    },
-    muraka: {
-        alert: "Muraka Spawnado!",
-        img: "https://i.imgur.com/SrPM0fF.png"
-    },
-    quint: {
-        alert: "Quint Spawnado!",
-        img: "https://i.imgur.com/nsp8tfc.png"
-    }
-} {
+{
     "Segunda": {
         "02:00": {
             "name": "Karanda",
