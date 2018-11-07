@@ -1,0 +1,230 @@
+var bossData = {
+    kutum: {
+        alert: "Kutum Spawnado!",
+        img: "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
+    },
+    dastardBheg: {
+        alert: "Covarde Bheg Spawnado!",
+        img: "http://urzasarchives.com/wp-content/uploads/wbt_bheg.png"
+    },
+    dimTreeSpirit: {
+        alert: "Espírito da Árvore Tola Spawndo!",
+        img: "http://urzasarchives.com/wp-content/uploads/wbt_dim.png"
+    },
+    giantMudster: {
+        alert: "Mudster Enorme Spawnado!",
+        img: "http://urzasarchives.com/wp-content/uploads/wbt_mudster.png"
+    },
+    karanda: {
+        alert: "Karanda Spawnado!",
+        img: "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
+    },
+    kzarka: {
+        alert: "Kzarka Spawnado!",
+        img: "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
+    },
+    redNose: {
+        alert: "Nariz Vermelho Spawnado!",
+        img: "http://urzasarchives.com/wp-content/uploads/wbt_red.png"
+    },
+    nouver: {
+        alert: "Nouver Spawnado!",
+        img: "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"
+    },
+    muraka: {
+        alert: "Muraka Spawnado!",
+        img: "https://i.imgur.com/SrPM0fF.png"
+    },
+    quint: {
+        alert: "Quint Spawnado!",
+        img: "https://i.imgur.com/nsp8tfc.png"
+    }
+} 
+{
+    "Segunda": {
+        "02:00": {
+            "name": "Karanda",
+            "alert": "Karanda vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
+        },
+        "11:00": {
+            "name": "Nouver",
+            "alert": "Nouver vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"
+        },
+        "16:00": {
+            "name": "Kutum e Kzarka",
+            "alert": "Kutum e Kzarka vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
+        },
+        "20:00": {
+            "name": "Nouver e Kutum",
+            "alert": "Nouver e Kutum vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
+        },
+        "23:30": {
+            "name": "Kzarka",
+            "alert": "Kzarka vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
+        }
+    },
+    "Terça": {
+        "02:00": {
+            "name": "Kutum",
+            "alert": "Kutum vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
+        },
+        "11:00": {
+            "name": "Kzarka",
+            "alert": "Kzarka vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
+        },
+        "16:00": {
+            "name": "Nouver e Kutum",
+            "alert": "Nouver e Kutum vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
+        },
+        "20:00": {
+            "name": "Kzarka e Karanda",
+            "alert": "Kzarka e Karanda vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
+        },
+        "23:30": {
+            "name": "Offin",
+            "alert": "Offin vai nascer!",
+            "img": "https://static.invenglobal.com/upload/image/2018/01/16/i1516165979759008.jpeg"
+        }
+    },
+    "Quarta": {
+        "02:00": {
+            "name": "Kzarka",
+            "alert": "Kzarka vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
+        },
+        "11:00": {
+            "name": "Kutum",
+            "alert": "Kutum vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
+        },
+        "16:00": {
+            "name": "Kzarka e Nouver"
+        },
+        "20:00": {
+            "name": "Nouver e Kutum",
+            "alert": "Nouver e Kutum vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
+        },
+        "23:30": {
+            "name": "Karanda",
+            "alert": "Karanda vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
+        }
+    },
+    "Quinta": {
+        "02:00": {
+            "name": "Karanda",
+            "alert": "Karanda vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
+        },
+        "11:00": {
+            "name": "Nouver",
+            "alert": "Nouver vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"
+        },
+        "16:00": {
+            "name": "Kutum e Kzarka",
+            "alert": "Kutum e Kzarka vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
+        },
+        "20:00": {
+            "name": "Nouver e Kutum",
+            "alert": "Nouver e Kutum vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
+        },
+        "23:30": {
+            "name": "Karanda e Kutum"
+        }
+    },
+    "Sexta": {
+        "02:00": {
+            "name": "Karanda",
+            "alert": "Karanda vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
+        },
+        "11:00": {
+            "name": "Nouver",
+            "alert": "Nouver vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"
+        },
+        "16:00": {
+            "name": "Kutum e Kzarka",
+            "alert": "Kutum e Kzarka vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
+        },
+        "20:00": {
+            "name": "Nouver e Kzarka"
+        },
+        "23:30": {
+            "name": "Offin",
+            "alert": "Offin vai nascer!",
+            "img": "https://static.invenglobal.com/upload/image/2018/01/16/i1516165979759008.jpeg"
+        }
+    },
+    "Sabado": {
+        "02:00": {
+            "name": "Kzarka",
+            "alert": "Kzarka vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
+        },
+        "11:00": {
+            "name": "Kzarka e Karanda",
+            "alert": "Kzarka e Karanda vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
+        },
+        "16:00": {
+            "name": "Nouver e Kutum",
+            "alert": "Nouver e Kutum vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
+        },
+        "20:00": {
+            "name": "Quint e Muraka"
+        }
+    },
+    "Domingo": {
+        "02:00": {
+            "name": "Nouver",
+            "alert": "Nouver vai nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"
+        },
+        "11:00": {
+            "name": "Kutum e Nouver"
+        },
+        "16:00": {
+            "name": "Kzarka e Karanda",
+            "alert": "Kzarka e Karanda vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
+        },
+        "18:00": {
+            "name": "Vell"
+        },
+        "20:00": {
+            "name": "Nouver e Karanda"
+        },
+        "23:30": {
+            "name": "Offin",
+            "alert": "Offin vai nascer!",
+            "img": "https://static.invenglobal.com/upload/image/2018/01/16/i1516165979759008.jpeg"
+        }
+    }
+}
