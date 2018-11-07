@@ -39,8 +39,7 @@ var bossData = {
         alert: "Quint Spawnado!",
         img: "https://i.imgur.com/nsp8tfc.png"
     }
-} 
-{
+} {
     "Segunda": {
         "02:00": {
             "name": "Karanda",
@@ -111,7 +110,10 @@ var bossData = {
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
         },
         "16:00": {
-            "name": "Kzarka e Nouver"
+            "name": "Kzarka e Nouver",
+            "alert": "Kzarka e Nouver vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"
         },
         "20:00": {
             "name": "Nouver e Kutum",
@@ -149,7 +151,10 @@ var bossData = {
             "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
         },
         "23:30": {
-            "name": "Karanda e Kutum"
+            "name": "Karanda e Kutum",
+            "alert": "Karanda e Kutum vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
         }
     },
     "Sexta": {
@@ -170,7 +175,10 @@ var bossData = {
             "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
         },
         "20:00": {
-            "name": "Nouver e Kzarka"
+            "name": "Nouver e Kzarka",
+            "alert": "Nouver e Kzarka vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"
         },
         "23:30": {
             "name": "Offin",
@@ -197,7 +205,10 @@ var bossData = {
             "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png"
         },
         "20:00": {
-            "name": "Quint e Muraka"
+            "name": "Quint e Muraka",
+            "alert": "Quint e Muraka vão nascer!",
+            "img": "https://i.imgur.com/nsp8tfc.png",
+            "img2": "https://i.imgur.com/SrPM0fF.png"
         }
     },
     "Domingo": {
@@ -207,7 +218,10 @@ var bossData = {
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"
         },
         "11:00": {
-            "name": "Kutum e Nouver"
+            "name": "Kutum e Nouver",
+            "alert": "Kutum e Nouver vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"
         },
         "16:00": {
             "name": "Kzarka e Karanda",
@@ -216,10 +230,15 @@ var bossData = {
             "img2": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
         },
         "18:00": {
-            "name": "Vell"
+            "name": "Vell",
+            "alert": "Vell vai nascer!",
+            "img": "https://pbs.twimg.com/media/DVHxntXWkAAZLR2.jpg"
         },
         "20:00": {
-            "name": "Nouver e Karanda"
+            "name": "Nouver e Karanda",
+            "alert": "Nouver e Karanda vão nascer!",
+            "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png",
+            "img2": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png"
         },
         "23:30": {
             "name": "Offin",
