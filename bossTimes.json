@@ -58,7 +58,7 @@
         }
     },
     "Quarta": {
-        "02:00": {
+        "1": {
             "name": "Kzarka",
             "alert": "Kzarka vai nascer!",
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png"

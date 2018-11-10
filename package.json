@@ -17,8 +17,12 @@
   },
   "homepage": "https://github.com/filipecavalc/BDO-BOSS-ALERT-DISCORD#readme",
   "dependencies": {
+    "JSON": "^1.0.0",
+    "bufferutil": "^4.0.0",
     "cheerio": "^1.0.0-rc.2",
     "discord.js": "^11.4.2",
-    "request": "^2.88.0"
+    "fs": "0.0.1-security",
+    "request": "^2.88.0",
+    "world-clock": "^1.4.0"
   }
 }
