@@ -1,8 +1,8 @@
 {
     "Segunda": {
         "1": {
-            "name": "Karanda",
-            "alert": "Karanda vai nascer!",
+            "name": "Karanda e Kzarka",
+            "alert": "Karanda e Kzarka vai nascer!",
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png",
             "time":"02:00"
         },
@@ -27,8 +27,8 @@
             "time":"20:00"
         },
         "5": {
-            "name": "Kzarka",
-            "alert": "Kzarka vai nascer!",
+            "name": "Garmoth",
+            "alert": "Garmoth vai nascer!",
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_kzarka.png",
             "time":"23:30"
         }
@@ -75,8 +75,8 @@
             "time":"02:00"
         },
         "2": {
-            "name": "Kutum",
-            "alert": "Kutum vai nascer!",
+            "name": "Karanda e Kutum",
+            "alert": "Karanda e Kutum vai nascer!",
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png",
             "time":"11:00"
         },
@@ -95,22 +95,22 @@
             "time":"20:00"
         },
         "5": {
-            "name": "Karanda",
-            "alert": "Karanda vai nascer!",
+            "name": "Garmoth",
+            "alert": "Garmoth vai nascer!",
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png",
             "time":"23:30"
         }
     },
     "Quinta": {
         "1": {
-            "name": "Karanda",
-            "alert": "Karanda vai nascer!",
+            "name": "Karanda e Kutum",
+            "alert": "Karanda e Kutum vai nascer!",
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png",
             "time":"02:00"
         },
         "2": {
-            "name": "Nouver",
-            "alert": "Nouver vai nascer!",
+            "name": "Karanda e Nouver",
+            "alert": "Karanda e Nouver vai nascer!",
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png",
             "time":"11:00"
         },
@@ -129,8 +129,8 @@
             "time":"20:00"
         },
         "5": {
-            "name": "Karanda e Kutum",
-            "alert": "Karanda e Kutum vão nascer!",
+            "name": "Offin",
+            "alert": "Offin vão nascer!",
             "img": "http://urzasarchives.com/wp-content/uploads/wbt_harpy.png",
             "img2": "http://urzasarchives.com/wp-content/uploads/wbt_kutum.png",
             "time":"23:30"
@@ -164,8 +164,8 @@
             "time":"20:00"
         },
         "5": {
-            "name": "Offin",
-            "alert": "Offin vai nascer!",
+            "name": "Garmoth",
+            "alert": "Garmoth vai nascer!",
             "img": "https://static.invenglobal.com/upload/image/2018/01/16/i1516165979759008.jpeg",
             "time":"23:30"
         }
