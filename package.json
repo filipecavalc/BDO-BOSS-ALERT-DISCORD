@@ -22,7 +22,7 @@
     "cheerio": "^1.0.0-rc.2",
     "discord.js": "^11.4.2",
     "fs": "0.0.1-security",
-    "moment-timezone": "^0.5.23",
+    "moment-timezone": "^0.5.35",
     "node-cron": "^2.0.3",
     "request": "^2.88.0"
   }
